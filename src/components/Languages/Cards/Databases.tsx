@@ -5,7 +5,7 @@ const DatabasesCard = () => {
 
     return (
         <LanguageCard language="Databases" icon="images/icons/mysql-icon.svg" iconWidth={70}>
-            <p className="leading-7 text-left">I work with both relational and NoSQL databases, choosing the right tool based on the project's structure, performance needs, and scalability requirements.</p>
+            <p className="leading-7 text-left">I work with both relational and NoSQL databases, choosing the right tool based on the project{"'"}s structure, performance needs, and scalability requirements.</p>
             <ul className="list-disc ml-12 mt-4">
                 <li className="my-4">
                     <span className="block w-full font-bold text-md">Mysql</span>
