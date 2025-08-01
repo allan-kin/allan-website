@@ -12,7 +12,7 @@ const NodeCard = () => {
                 <li className="my-4">Creating full-stack JavaScript applications (with Express, NestJS, etc.)</li>
                 <li className="my-4">Integrating databases like MongoDB or PostgreSQL</li>
             </ul>
-            <span className="block h-[40px]"></span>
+            <span className="block h-[60px]"></span>
             <Quote atBottom>My Node.js experience covers RESTful API development, backend architecture, and full-stack project delivery.</Quote>
         </LanguageCard>
     )

@@ -8,15 +8,15 @@ const menuList: TypeMenuItem[] = [
         active: true
     },
     {
-        id: 'languages',
-        label: 'Frameworks & Languages',
-        href: '/frameworks-and-languages',
-        active: true
-    },
-    {
         id: 'experience',
         label: 'Professional Experiences',
         href: '/professional-experiences',
+        active: true
+    },
+    {
+        id: 'languages',
+        label: 'Frameworks & Languages',
+        href: '/frameworks-and-languages',
         active: true
     }
 ];

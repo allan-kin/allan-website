@@ -12,7 +12,7 @@ const MagentoCard = () => {
                 <li className="my-4">Integrating with third-party services (payment gateways, CRMs, etc.)</li>
                 <li className="my-4">Optimizing performance and scalability for high-traffic environments</li>
             </ul>
-            <span className="block h-[40px]"></span>
+            <span className="block h-[60px]"></span>
             <Quote atBottom>I have over a decade of experience with Magento, delivering tailored solutions for B2C and B2B clients.</Quote>
         </LanguageCard>
     )

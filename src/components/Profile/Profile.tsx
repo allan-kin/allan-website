@@ -1,12 +1,21 @@
 "use client";
 
+import Image from "next/image";
+
 const Profile = () => {
 
     return (
         <div className="block w-full p-4 xl:p-0">
-            <div className="flex flex-row flex-wrap md:flex-nowrap justify-center md:justify-between items-start md:items-center">
-                <div className="w-full md:w-1/2 text-center mb-5 md:md-0">
-                    <span className="w-[400px] h-[400px] bg-gray-200 rounded-full block mx-auto md:mx-0"></span>
+            <div className="flex flex-row flex-wrap md:gap-12 md:flex-nowrap justify-center md:justify-between items-start md:items-center">
+                <div className="w-full md:w-1/2 text-center mb-5 md:md-0 flex justify-center items-center">
+                    <Image
+                        className="rounded-full"
+                        src="/images/profile.png"
+                        width={400}
+                        height={400}
+                        alt="Profile"
+                        priority
+                    />
                 </div>
                 <div className="w-full md:w-1/2">
                     <h3 className="mb-3">Software Engineering</h3>

@@ -20,7 +20,7 @@ const DatabasesCard = () => {
                     <span className="block w-full leading-7">A flexible NoSQL document database, great for handling unstructured or rapidly evolving data. Ideal for real-time applications, content management systems, and use cases that benefit from a dynamic schema.</span>
                 </li>
             </ul>
-            <span className="block h-[40px]"></span>
+            <span className="block h-[60px]"></span>
             <Quote atBottom>I use React to build clean, scalable front-end applications with a strong focus on user experience.</Quote>
         </LanguageCard>
     )

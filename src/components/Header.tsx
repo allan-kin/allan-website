@@ -13,10 +13,11 @@ const Header = () => {
     const MenuMemo = useMemo(() => <Menu />, []);
 
     return (
-        <header className="sticky top-0 z-50 block w-full">
+        <header className="sticky top-2 z-50 block w-300 mx-auto max-w-full px-4 lg:px-0">
             <div className={clsx(
                 "block w-full",
-                "bg-white border-b-[1px] border-gray-200",
+                "mt-2 rounded-md",
+                "bg-white border-[1px] border-gray-200",
                 "transition-all duration-200 ease-in-out",
                 scrollAtTop ? "" : "shadow-sm"
             )}>

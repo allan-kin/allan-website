@@ -12,7 +12,7 @@ const ReactCard = () => {
                 <li className="my-4">Developing SPAs with smooth navigation and dynamic content</li>
                 <li className="my-4">Integrating with backend APIs or headless CMSs for a decoupled architecture</li>
             </ul>
-            <span className="block h-[40px]"></span>
+            <span className="block h-[60px]"></span>
             <Quote atBottom>I use React to build clean, scalable front-end applications with a strong focus on user experience.</Quote>
         </LanguageCard>
     )
