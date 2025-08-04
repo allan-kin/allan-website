@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     generator: "Next.js",
     keywords: ["Allan Barbuza dos Santos", "Software Engineering", "Adobe Commerce", "React", "NextJS", "Node", "TypeScript"],
     robots: "noindex,nofollow",
+    metadataBase: new URL(`https://${process.env.NEXT_PUBLIC_DOMAIN}`),
     openGraph: {
         siteName: "Allan Barbuza dos Santos",
         images: "/images/profile.png"
