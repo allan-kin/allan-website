@@ -11,14 +11,18 @@ const Profile = () => {
             <div className="flex flex-row flex-wrap md:gap-12 md:flex-nowrap justify-center md:justify-between items-start md:items-center">
                 <div className="w-full md:w-1/2 text-center mb-5 md:md-0 flex justify-center items-center">
                     <AnimationTransitionIn>
-                        <Image
-                            className="rounded-full"
-                            src="/images/profile.png"
-                            width={400}
-                            height={400}
-                            alt="Profile"
-                            priority
-                        />
+                        <div
+                            className="relative w-100 h-100 flex justify-center items-center"
+                            style={{
+                                backgroundColor: "#bac0bc",
+                                backgroundImage: "url('/images/profile.jpeg')",
+                                backgroundRepeat: "no-repeat",
+                                backgroundSize: "cover",
+                                backgroundPosition: "-10px center",
+                                borderRadius: "50%"
+                            }}
+                        >
+                        </div>
                     </AnimationTransitionIn>
                 </div>
                 <div className="w-full md:w-1/2">
