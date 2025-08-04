@@ -7,6 +7,14 @@ import "../globals.css";
 export const metadata: Metadata = {
     title: "Allan B. Santos - Software Engineering",
     description: "Software Engineering • Adobe Commerce • React • NextJS • Node • TypeScript",
+    authors: [{ name: "Allan Barbuza dos Santos"}],
+    generator: "Next.js",
+    keywords: ["Allan Barbuza dos Santos", "Software Engineering", "Adobe Commerce", "React", "NextJS", "Node", "TypeScript"],
+    robots: "noindex,nofollow",
+    openGraph: {
+        siteName: "Allan Barbuza dos Santos",
+        images: "/images/profile.png"
+    }
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
