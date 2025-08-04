@@ -6,6 +6,7 @@ interface ExperienceCardProps {
     location: string;
     startDate: string;
     endDate?: string;
+    range?: string;
     children?: ReactNode;
 }
 
@@ -17,7 +18,8 @@ const ExperienceCard = (props: ExperienceCardProps) => {
         company,
         location,
         startDate,
-        endDate
+        endDate,
+        range
     } = props;
 
     return (
@@ -32,7 +34,7 @@ const ExperienceCard = (props: ExperienceCardProps) => {
                 </div>
                 <div className="w-full md:w-auto">
                     <span className="text-sm text-gray-700 italic">
-                        {startDate} - {endDate}
+                        {startDate} - {endDate} {range && `(${range})`}
                     </span>
                 </div>
             </div>

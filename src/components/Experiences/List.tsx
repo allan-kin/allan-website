@@ -16,6 +16,7 @@ const ExperiencesList = () => {
                         location="Vancouver (Remote)"
                         startDate="Jan 2024"
                         endDate="Jul 2025"
+                        range="1 year"
                     >
                         <ExperienceCardList items={[
                             "Developed and shipped customer-facing features using React, Next.js, Node.js, Express, and TypeScript, enhancing the user experience and platform scalability.",
@@ -41,6 +42,7 @@ const ExperiencesList = () => {
                         location="Vancouver (Remote)"
                         startDate="Feb 2016"
                         endDate="Dec 2023"
+                        range="7 years"
                     >
                         <ExperienceCardList items={[
                             "Architected and led the development of a headless e-commerce frontend using React, Next.js, GraphQL, and REST APIs integrated with Adobe Commerce (Magento).",
@@ -64,6 +66,7 @@ const ExperiencesList = () => {
                         location="Buenos Aires (Remote)"
                         startDate="Jul 2015"
                         endDate="Jan 2016"
+                        range="1 year"
                     >
                         <ExperienceCardList items={[
                             "Developed and maintained custom Magento modules for enterprise-level clients in Latin America and the U.S.",
@@ -83,6 +86,7 @@ const ExperiencesList = () => {
                         location="Brasil (On-site)"
                         startDate="Jun 2014"
                         endDate="Jun 2015"
+                        range="1 year"
                     >
                         <ExperienceCardList items={[
                             "Built and maintained custom modules for Magento 1.x storefronts, supporting performance and business requirements.",

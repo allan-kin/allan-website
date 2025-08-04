@@ -41,11 +41,6 @@ const skillIcons: SkillIcon[] = [
         name: "Less"
     },
     {
-        id: "mysql",
-        icon: "/images/icons/mysql-icon.svg",
-        name: "MySQL"
-    },
-    {
         id: "php",
         icon: "/images/icons/php-icon.svg",
         name: "PHP"

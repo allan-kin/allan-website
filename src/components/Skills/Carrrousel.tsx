@@ -9,7 +9,7 @@ import { skillIcons } from "@/components/Skills/skill-list";
 
 const SkillCarrousel = () => {
 
-    const [emblaRef] = useEmblaCarousel({ loop: true }, [ Autoplay() ]);
+    const [emblaRef] = useEmblaCarousel({ loop: true, duration: 20 }, [ Autoplay() ]);
 
     return (
         <div className="block w-full bg-blue-50 py-10">
