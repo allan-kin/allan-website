@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { AnimationTransitionIn } from "@/components/UI/Animations/TransitionIn";
 import { TypeAnimation } from "react-type-animation";
 
