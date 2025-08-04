@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     metadataBase: new URL(`https://${process.env.NEXT_PUBLIC_DOMAIN}`),
     openGraph: {
         siteName: "Allan Barbuza dos Santos",
-        images: "/images/profile.png"
+        images: "/images/profile.jpeg"
     }
 };
 
