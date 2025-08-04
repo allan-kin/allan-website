@@ -3,7 +3,7 @@ import { YearTag } from "@/components/Experiences/Timeline/Year";
 
 const Timeline = ({ children }: { children: ReactNode }) => {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-[130px_1fr] gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-[130px_1fr] gap-4 mb-20">
             <div className="hidden sm:block relative w-10 h-full">
                 <span className="absolute top-[-10px] left-[50px]">
                     <YearTag year="2025" />
